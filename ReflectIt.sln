@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectIt", "ReflectIt\ReflectIt.csproj", "{0538F8EC-1461-44FC-8ED7-653B05153B92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0538F8EC-1461-44FC-8ED7-653B05153B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0538F8EC-1461-44FC-8ED7-653B05153B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0538F8EC-1461-44FC-8ED7-653B05153B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0538F8EC-1461-44FC-8ED7-653B05153B92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C594714-F864-4EE6-AB0A-1F1B552E06A6}
+	EndGlobalSection
+EndGlobal
