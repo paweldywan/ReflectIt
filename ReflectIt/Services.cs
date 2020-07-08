@@ -25,7 +25,7 @@ namespace ReflectIt
     {
         public SqlRepository(ILogger logger)
         {
-
+            _ = logger;
         }
     }
 
@@ -38,7 +38,9 @@ namespace ReflectIt
     {
         public InvoiceService(IRepository<Customer> repository, ILogger logger)
         {
+            _ = repository;
 
+            _ = logger;
         }
     }
 }

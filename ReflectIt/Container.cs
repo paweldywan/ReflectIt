@@ -8,7 +8,7 @@ namespace ReflectIt
 {
     public class Container
     {
-        Dictionary<Type, Type> _map = new Dictionary<Type, Type>();
+        private readonly Dictionary<Type, Type> _map = new Dictionary<Type, Type>();
 
         public ContainerBuilder For<TSource>() // Gdy typ jest znany w czasie kompilacji
         {
@@ -82,9 +82,8 @@ namespace ReflectIt
                 return this;
             }
 
-
-            Container _container;
-            Type _sourceType;
+            private readonly Container _container;
+            private readonly Type _sourceType;
         }
     }
 }

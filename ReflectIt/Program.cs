@@ -11,6 +11,8 @@ namespace ReflectIt
     {
         static void Main(string[] args)
         {
+            _ = args;
+
             var employeeList = CreateCollection(typeof(List<>), typeof(Employee));
 
             Console.Write(employeeList.GetType().Name);
